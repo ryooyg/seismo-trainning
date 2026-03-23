@@ -19,5 +19,6 @@ Expert senior Python developer.
   - `torch`: Deep learning framework.
   - `obspy`: For processing and analyzing seismological data.
   - `numpy<2.0`: Kept under 2.0 to prevent compatibility issues (`ImportError: numpy.core.multiarray`) with older data processing and plotting libraries like `matplotlib`.
+
 - **Dependency Management**: Handled via `uv`. 
 - **Training Pipeline**: Custom PyTorch training script (`train.py`) utilizing `seisbench.generate` (GenericGenerator, augmentations, and ProbabilisticLabeller) to manage `WaveformDataset` batches seamlessly.
