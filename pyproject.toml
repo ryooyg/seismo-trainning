@@ -1,0 +1,17 @@
+[project]
+name = "seismo-trainning"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "numpy<2.0",
+    "obspy>=1.2.2",
+    "seisbench>=0.11.5",
+    "torch>=2.10.0",
+]
+
+[tool.uv.workspace]
+members = [
+    "seisbench_env",
+]
